@@ -1,5 +1,4 @@
 openai
 python-steam-api
-steamreviews
 requests
 matplotlib
