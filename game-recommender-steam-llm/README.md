@@ -14,7 +14,7 @@ Academic project for the Natural Language Processing course at UFABC (2024-Q2).
 
 ## Stack
 
-Python · OpenAI API (GPT-4o mini) · python-steam-api · steamreviews · requests · matplotlib · Google Colab
+Python · OpenAI API (GPT-4o mini) · python-steam-api · requests · matplotlib · Google Colab
 
 ## How to run
 
@@ -24,11 +24,11 @@ Python · OpenAI API (GPT-4o mini) · python-steam-api · steamreviews · reques
    - OpenAI API key: https://platform.openai.com/api-keys
    - Steam Web API key: https://steamcommunity.com/dev/apikey
 4. Run the notebook. Keys are requested at runtime with `getpass`, so they are never stored in the file.
-5. Enter a public Steam profile ID when prompted.
+5. Enter your 17-digit SteamID (starts with `7656...`) when prompted. Your profile, including the friends list, must be set to **public**.
 
 ## Privacy note
 
-Outputs were cleared and no keys or personal data are committed. The Steam profile you query must be public.
+Outputs were cleared and no keys or personal data are committed. Friends with private libraries may cause the friends section to fail.
 
 ## Author
 
